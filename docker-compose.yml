@@ -69,7 +69,7 @@ services:
     networks:
       - mang-gateway
     ports:
-      - 85:80
+      - 86:80
     depends_on:
       - frontend-admin
       - frontend-teacher
