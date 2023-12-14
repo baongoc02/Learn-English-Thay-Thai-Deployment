@@ -29,8 +29,8 @@ services:
     networks:
       - mang-gateway
 
-  frontend-login:
-    container_name: frontend-login
+  frontend-login-cnpmm:
+    container_name: frontend-login-cnpmm
     image: ngthvan1612/learn-english-thay-thai-2023-frontend-login
     restart: always
     networks:
@@ -75,7 +75,7 @@ services:
       - frontend-teacher
       - frontend-staff
       - frontend-common
-      - frontend-login
+      - frontend-login-cnpmm
       - backend
 
 networks:
